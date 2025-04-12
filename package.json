@@ -4,13 +4,12 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Smart Bin Notification and Monitoring Web App",
   "dependencies": {
     "express": "^5.1.0"
   }

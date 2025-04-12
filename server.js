@@ -10,7 +10,7 @@ app.use(express.static(__dirname));
 app.use(express.json());
 
 const dummyUser = { username: 'admin', password: 'admin123' };
-const dummyStats = { dry: 35, wet: 40, metal: 25 };
+const dummyStats = { dry: 80, wet: 100, metal: 30 }; // wet bin is full
 
 app.post('/login', (req, res) => {
   const { username, password } = req.body;
